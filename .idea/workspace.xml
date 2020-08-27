@@ -1,22 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3c15e6d-9438-4db8-9df1-0ee4ecb364a1" name="Default Changelist" comment="" />
+    <list default="true" id="b3c15e6d-9438-4db8-9df1-0ee4ecb364a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/arrow-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/empty-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/grey-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/pizza-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Categories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PizzasBlock/LoadingBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PizzasBlock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SortPopup.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_all.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_categories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_sort.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Extrabld.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Extrabld.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Extrabld.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Semibold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Semibold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/libs/_normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gSC8lbglAN31MOpr9UKaaTF2Dw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux/actions" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\gitProject\pizza\src\redux\actions" />
+      <recent name="C:\Project\gitProject\pizza\src\redux\reducers" />
+      <recent name="C:\Project\gitProject\pizza\src\redux" />
+      <recent name="C:\Project\gitProject\pizza\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Project\gitProject\pizza\src\assets" />
+      <recent name="C:\Project\gitProject\pizza\src\scss" />
+      <recent name="C:\Project\gitProject\pizza\src" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,7 +118,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598098459991</updated>
-      <workItem from="1598098483637" duration="1375000" />
+      <workItem from="1598098483637" duration="7203000" />
+      <workItem from="1598153638455" duration="5327000" />
+      <workItem from="1598167526379" duration="2501000" />
+      <workItem from="1598183076285" duration="1656000" />
+      <workItem from="1598249526477" duration="12759000" />
+      <workItem from="1598278980507" duration="3010000" />
+      <workItem from="1598363564050" duration="8783000" />
+      <workItem from="1598441221751" duration="591000" />
+      <workItem from="1598448542544" duration="4953000" />
     </task>
     <servers />
   </component>
@@ -36,6 +134,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#ESLint" timestamp="1598281448960">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1598281448960" />
+    <state x="441" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598251193962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598251193962" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598103669325">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598103669325" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1598264167937">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598264167937" />
     <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1598099967009">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -52,5 +166,27 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598099967009" />
+    <state x="524" y="74" key="RollbackChangesDialog" timestamp="1598168229228">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="524" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598168229228" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1598373555605">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598373555605" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598167897184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598167897184" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux/reducers/pizzas.js</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
