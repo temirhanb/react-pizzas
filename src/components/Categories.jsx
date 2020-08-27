@@ -1,35 +1,26 @@
-import React from "react"
+import React from 'react'
 
 // React.memo позволяет не ререндерить компонет до изменения стейта
 const Categories = React.memo(
-    function Categories({items, onClickItems}) {
-
-        const [activeItem, setActiveItem] = React.useState(null)
-
-        const onSelectItem = index => {
-            setActiveItem(index)
-            onClickItems(index)
-        }
-
-        console.log('rerender categories')
+    function Categories({activeCategory, items, onClickItems}) {
 
         return (
             <div className='categories'>
                 <ul>
                     <li
                         onClick={() =>
-                            onSelectItem(null)
+                            onClickItems(null)
                         }
                         className={
-                            activeItem === null ? 'active' : ''
+                            activeCategory === null ? 'active' : ''
                         }
                     >
                         Все
                     </li>
                     {items && items.map((i, index) =>
                         <li
-                            className={activeItem === index ? 'active' : ''}
-                            onClick={() => onSelectItem(index)}
+                            className={activeCategory === index ? 'active' : ''}
+                            onClick={() => onClickItems(index)}
                             key={`${i}_${index}`}
                         >
                             {i}

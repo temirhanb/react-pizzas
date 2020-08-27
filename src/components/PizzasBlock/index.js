@@ -1,6 +1,5 @@
 import React from "react"
 import classNames from 'classnames'
-import PropTypes from 'prop-types'
 
 function PizzasBlock({name, imageUrl, price, types, sizes}) {
 
@@ -77,24 +76,6 @@ function PizzasBlock({name, imageUrl, price, types, sizes}) {
 
     )
 
-}
-
-// eslint-disable-next-line react/no-typos
-PizzasBlock.propTypes = {
-    name: PropTypes.string.isRequired,
-    imageUrl: PropTypes.string.isRequired,
-    price: PropTypes.number.isRequired,
-    types: PropTypes.arrayOf(PropTypes.number).isRequired,
-    sizes: PropTypes.arrayOf(PropTypes.number).isRequired,
-
-}
-
-PizzasBlock.defaultProps = {
-    name: '---',
-    imageUrl: '',
-    price: 0,
-    types: [],
-    sizes: []
 }
 
 export default PizzasBlock
