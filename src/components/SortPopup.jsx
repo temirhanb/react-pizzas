@@ -3,9 +3,9 @@ import React from "react"
 const SortPopup = React.memo(function SortPopup({items, onClickSortType, activeSortBy}) {
 
     const [visiblePopup, setVisiblePopup] = React.useState(false)
+
     const activeLabel = items.find(obj => obj.type === activeSortBy).name
 
-    // ссылка на дом элемент для реакт, нужен для хранения актуального значения
     const sortRef = React.useRef()
 
     const handleOutsideClick = (e) => {

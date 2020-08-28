@@ -1,6 +1,6 @@
 import React from "react"
 import classNames from 'classnames'
-import {Button} from "../index";
+import {Button} from "../index"
 
 function PizzasBlock({id, name, imageUrl, price, types, sizes, onClickAddPizza, addedCart}) {
 

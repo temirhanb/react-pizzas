@@ -1,4 +1,4 @@
-import {SET_CATEGORY, SET_SORT_BY} from "../types";
+import {SET_CATEGORY, SET_SORT_BY} from "../types"
 
 const initState = {
     category: null,

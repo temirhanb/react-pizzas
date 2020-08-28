@@ -1,4 +1,4 @@
-import {SET_LOADED, SET_PIZZAS} from "../types";
+import {SET_LOADED, SET_PIZZAS} from "../types"
 
 const initState = {
     items: [],

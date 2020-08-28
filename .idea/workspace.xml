@@ -1,42 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3c15e6d-9438-4db8-9df1-0ee4ecb364a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Cart.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
+    <list default="true" id="b3c15e6d-9438-4db8-9df1-0ee4ecb364a1" name="Default Changelist" comment="- Добавлены reducers и action для cart">
+      <change afterPath="$PROJECT_DIR$/src/components/CartItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/arrow-top.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/arrow-top.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/cart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/grey-arrow-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/grey-arrow-left.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/plus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PizzasBlock/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzasBlock/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PizzasBlock/LoadingBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzasBlock/LoadingBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PizzasBlock/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzasBlock/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SortPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Card.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/filter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_categories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_sort.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_sort.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/libs/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/libs/_normalize.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +59,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Project\gitProject\pizza\src\redux\actions" />
-      <recent name="C:\Project\gitProject\pizza\src\redux\reducers" />
-      <recent name="C:\Project\gitProject\pizza\src\redux" />
-      <recent name="C:\Project\gitProject\pizza\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Project\react-pizzas\src" />
       <recent name="C:\Project\gitProject\pizza\src\assets" />
       <recent name="C:\Project\gitProject\pizza\src\scss" />
+      <recent name="C:\Project\gitProject\pizza\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\gitProject\pizza\src\redux\actions" />
+      <recent name="C:\Project\gitProject\pizza\src\redux\reducers" />
+      <recent name="C:\Project\gitProject\pizza\src\redux" />
       <recent name="C:\Project\gitProject\pizza\src" />
     </key>
   </component>
@@ -111,6 +98,7 @@
       <workItem from="1598619438986" duration="713000" />
       <workItem from="1598620413285" duration="2327000" />
       <workItem from="1598624553313" duration="3745000" />
+      <workItem from="1598632088228" duration="12827000" />
     </task>
     <task id="LOCAL-00001" summary="- project init">
       <created>1598504865561</created>
@@ -119,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598504865561</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Добавлены reducers и action для cart">
+      <created>1598632191180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598632191180</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- project init" />
-    <option name="LAST_COMMIT_MESSAGE" value="- project init" />
+    <MESSAGE value="- Добавлены reducers и action для cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Добавлены reducers и action для cart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#ESLint" timestamp="1598281448960">
@@ -155,10 +151,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598103669325" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1598504863112">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1598649079409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598504863112" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598649079409" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1598264167937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -183,14 +179,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="524" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598168229228" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1598373555605">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1598637235166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598373555605" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1598504869432">
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598637235166" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1598632197928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598504869432" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598632197928" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598167897184">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

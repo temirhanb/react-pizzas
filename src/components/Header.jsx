@@ -1,8 +1,8 @@
-import React from "react";
-import logoSvg from "../assets/img/pizza-logo.svg";
-import Button from "./Button";
-import {NavLink} from "react-router-dom";
-import {useSelector} from "react-redux";
+import React from "react"
+import logoSvg from "../assets/img/pizza-logo.svg"
+import Button from "./Button"
+import {NavLink} from "react-router-dom"
+import {useSelector} from "react-redux"
 
 function Header() {
 
