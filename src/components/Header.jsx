@@ -2,8 +2,14 @@ import React from "react";
 import logoSvg from "../assets/img/pizza-logo.svg";
 import Button from "./Button";
 import {NavLink} from "react-router-dom";
+import {useSelector} from "react-redux";
 
 function Header() {
+
+    const {totalPrice, totalCount} = useSelector(({cart}) => ({
+        totalPrice: cart.totalPrice,
+        totalCount: cart.totalCount
+    }))
 
     return (
         <div className='header'>
@@ -15,9 +21,9 @@ function Header() {
                         <p>самая вкусная пицца во вселенной</p>
                     </div>
                 </NavLink>
-                <NavLink to='/card' className='header__cart'>
-                    <Button>
-                        <span>520 ₽</span>
+                <NavLink to='/cart' className='header__cart'>
+                    <Button className="button--cart">
+                        <span>{totalPrice} ₽</span>
                         <div className='button__delimiter'>
                         </div>
                         <svg
@@ -49,7 +55,7 @@ function Header() {
                                 strokeLinejoin='round'
                             />
                         </svg>
-                        <span>3</span>
+                        <span>{totalCount}</span>
                     </Button>
                 </NavLink>
             </div>

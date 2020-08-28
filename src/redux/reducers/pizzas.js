@@ -1,3 +1,5 @@
+import {SET_LOADED, SET_PIZZAS} from "../types";
+
 const initState = {
     items: [],
     isLoaded: false
@@ -6,7 +8,7 @@ const initState = {
 const pizzas = (state = initState, action) => {
 
     switch (action.type) {
-        case 'SET_PIZZAS':
+        case SET_PIZZAS:
             return {
                 // предыдущее свойство
                 ...state,
@@ -14,7 +16,7 @@ const pizzas = (state = initState, action) => {
                 items: action.payload,
                 isLoaded: true
             }
-        case'SET_LOADED': {
+        case SET_LOADED: {
             return {
                 ...state,
                 isLoaded: action.payload
